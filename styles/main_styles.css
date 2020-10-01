@@ -288,8 +288,8 @@ section
 	-ms-transform: translateX(-50%);
 	-o-transform: translateX(-50%);
 	transform: translateX(-50%);
-	width: 1318px;
-	height: 104px;
+	width: 1400px;
+	height: 130px;
 	background: #FFFFFF;
 	z-index: 10;
 	-webkit-transition: all 200ms ease;
