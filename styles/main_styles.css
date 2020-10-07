@@ -1,55 +1,9 @@
 @charset "utf-8";
-/* CSS Document */
 
-/******************************
-
-COLOR PALETTE
-
-
-
-
-[Table of Contents]
-
-1. Fonts
-2. Body and some general stuff
-3. Header
-	3.1 Logo
-	3.2 Main Nav
-	3.3 Header Side
-	3.4 Hamburger
-4. Menu
-	4.1 Menu Social
-	4.2 Menu copyright
-5. Home
-	5.1 Hero Slider
-	5.2 Hero Slider Navigation
-6. Hero Boxes
-7. Page Section
-8. Buttons
-9. Popular
-10. Register
-11. Search
-	11.1 Search Form
-12. Services
-13. Testimonials
-14. Events
-15. Footer
-	15.1 Newsletter
-	15.2 Footer Content
-	15.3 Footer Copyright
-
-
-******************************/
-
-/***********
-1. Fonts
-***********/
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800|Roboto:400,500,700');
 
-/*********************************
-2. Body and some general stuff
-*********************************/
+
 
 *
 {
@@ -274,9 +228,7 @@ section
 	padding: 0px !important;
 }
 
-/*********************************
-3. Header
-*********************************/
+
 
 .header
 {
@@ -324,9 +276,7 @@ section
 	z-index: -1;
 }
 
-/*********************************
-3.1 Logo
-*********************************/
+
 
 .logo_container
 {
@@ -344,9 +294,7 @@ section
 	margin-left: 3px;
 }
 
-/*********************************
-3.2 Main Nav
-*********************************/
+
 
 .main_nav_container
 {
@@ -385,9 +333,6 @@ section
 	color: #ffb606;
 }
 
-/*********************************
-3.3 Header Side
-*********************************/
 
 .header_side
 {
@@ -410,9 +355,6 @@ section
 	padding-left: 12px;
 }
 
-/*********************************
-3.4 Hamburger
-*********************************/
 
 .hamburger_container
 {
@@ -438,9 +380,7 @@ section
 	color: #ffb606;
 }
 
-/*********************************
-4. Menu
-*********************************/
+
 
 .menu_container
 {
@@ -563,9 +503,8 @@ section
 	background: #ffb606;
 }
 
-/*********************************
-4.1 Menu Social
-*********************************/
+
+
 
 .menu_social_container
 {
@@ -606,9 +545,6 @@ section
 	opacity: 1;
 }
 
-/*********************************
-4.2 Menu copyright
-*********************************/
 
 .menu_copyright
 {
@@ -636,9 +572,6 @@ section
 	opacity: 1;
 }
 
-/*********************************
-5. Home
-*********************************/
 
 .home
 {
@@ -646,9 +579,7 @@ section
 	height: 100vh;
 }
 
-/*********************************
-5.1 Hero Slider
-*********************************/
+
 
 .hero_slider_container
 {
@@ -712,9 +643,7 @@ section
 	animation-delay : 0ms;
 }
 
-/*********************************
-5.2 Hero Slider Navigation
-*********************************/
+
 
 .hero_slider_nav
 {
@@ -764,10 +693,6 @@ section
 {
 	right: 4.32%;
 }
-
-/*********************************
-6. Hero Boxes
-*********************************/
 
 .hero_boxes
 {
@@ -840,9 +765,7 @@ section
 	color: #1a1a1a;
 }
 
-/*********************************
-7. Page Section
-*********************************/
+
 
 .page_section
 {
@@ -877,9 +800,7 @@ section
 	background: #ffb606;
 }
 
-/*********************************
-8. Buttons
-*********************************/
+
 
 .button
 {
@@ -896,12 +817,20 @@ section
 	font-weight: 700;
 	text-transform: uppercase;
 }
+
 .button_1
 {
 	width: 202px;
 	height: 48px;
 }
-
+.button_color_1
+{
+	background: #ffb606; 
+}
+.button_color_1 a
+{
+	color: #FFFFFF;
+}
 /*********************************
 9. Popular
 *********************************/
@@ -996,9 +925,7 @@ section
 	margin-top: 7px;
 }
 
-/*********************************
-10. Register
-*********************************/
+
 
 .register
 {
@@ -1067,6 +994,15 @@ section
 {
 	background: #1a1a1a;
 	margin-top: 65px;
+}
+.register_child_button
+{
+	background: #ffb606;
+	margin-top: 65px;
+	width: 202px;
+	height: 48px;
+	vertical-align: middle;
+
 }
 .register_button a
 {
